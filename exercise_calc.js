@@ -22,14 +22,7 @@ function addEventListenerToButtons() {
     document.getElementById('equals').addEventListener('click', calculate);
 }
 
-function modelo() {
-    if (Se ha pulsado algún boton) {
-        currentInput += number;
-        updateDisplay();
-    } else {
-        updateDisplay()
-    }
-}
+
 
 function updateDisplay() {
     document.getElementById("display").innerText = currentInput;
